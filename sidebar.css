@@ -1,0 +1,22 @@
+.sidebar{
+    width: 120px;
+    height: 10vh;
+    border-radius: 5%;
+    text-align: center ;
+}
+.sidebar{
+    width: 500px;
+    height: 30vh;
+    transition: 20s;
+    animation: bounce 3s infinite alternate;
+ }
+@keyframes bounce{
+    0% 
+{
+    transform: translateY(100vh) ;
+
+}}
+/* 100% {
+    transform: translateY(-200);
+}
+} */
